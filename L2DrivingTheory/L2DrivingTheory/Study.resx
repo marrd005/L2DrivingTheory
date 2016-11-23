@@ -117,4 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ObservationLabel.Text" xml:space="preserve">
+    <value>Driving safely takes a lot of concentration. Look around constantly and assess the changing situations as you drive. Be aware of traffic all around you. Before you carry out any manoeuvre, such as moving off, stopping, turning or changing lanes, you should
+
+use your mirrors to assess how your actions will affect traffic behind you
+look around for a final check – remember windscreen pillars can obstruct your view
+signal if necessary.
+If you can't see behind when reversing, ask a reliable person to guide you.
+
+If you can't see when emerging from a junction because your view is obstructed by parked cars, move forward slowly and carefully until you can get a proper view.
+
+Be particularly careful before you overtake. Ensure that
+
+you have a clear view of the road ahead – there shouldn't be any bends or dips
+you have enough time to complete the manoeuvre safely.
+It's also important for other road users to know you're there.
+
+When it starts to get dark, switch on your lights, even if the street lights aren't on.
+Where you can't be seen, such as at a hump bridge, consider using your horn.</value>
+  </data>
 </root>

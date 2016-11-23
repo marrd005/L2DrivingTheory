@@ -22,6 +22,7 @@ Partial Class Study
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Study))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -36,6 +37,8 @@ Partial Class Study
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Button13 = New System.Windows.Forms.Button()
         Me.Button14 = New System.Windows.Forms.Button()
+        Me.Button15 = New System.Windows.Forms.Button()
+        Me.ObservationLabel = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button1
@@ -164,11 +167,31 @@ Partial Class Study
         Me.Button14.Text = "Vulnerable Road Users"
         Me.Button14.UseVisualStyleBackColor = True
         '
+        'Button15
+        '
+        Me.Button15.Location = New System.Drawing.Point(89, 12)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Size = New System.Drawing.Size(75, 23)
+        Me.Button15.TabIndex = 15
+        Me.Button15.Text = "Observation"
+        Me.Button15.UseVisualStyleBackColor = True
+        '
+        'ObservationLabel
+        '
+        Me.ObservationLabel.AutoSize = True
+        Me.ObservationLabel.Location = New System.Drawing.Point(12, 68)
+        Me.ObservationLabel.Name = "ObservationLabel"
+        Me.ObservationLabel.Size = New System.Drawing.Size(1208, 221)
+        Me.ObservationLabel.TabIndex = 16
+        Me.ObservationLabel.Text = resources.GetString("ObservationLabel.Text")
+        '
         'Study
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(788, 432)
+        Me.ClientSize = New System.Drawing.Size(1227, 432)
+        Me.Controls.Add(Me.ObservationLabel)
+        Me.Controls.Add(Me.Button15)
         Me.Controls.Add(Me.Button14)
         Me.Controls.Add(Me.Button13)
         Me.Controls.Add(Me.Button12)
@@ -181,11 +204,12 @@ Partial Class Study
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Button2)
         Me.Name = "Study"
         Me.Text = "Study"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Button1 As System.Windows.Forms.Button
@@ -202,4 +226,6 @@ Partial Class Study
     Friend WithEvents Button12 As System.Windows.Forms.Button
     Friend WithEvents Button13 As System.Windows.Forms.Button
     Friend WithEvents Button14 As System.Windows.Forms.Button
+    Friend WithEvents Button15 As System.Windows.Forms.Button
+    Friend WithEvents ObservationLabel As System.Windows.Forms.Label
 End Class

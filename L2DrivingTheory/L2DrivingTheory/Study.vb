@@ -15,6 +15,8 @@
         Me.Controls.Remove(Button12)
         Me.Controls.Remove(Button13)
         Me.Controls.Remove(Button14)
+        Me.Controls.Add(Button15)
+        Me.Controls.Add(ObservationLabel)
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -239,6 +241,15 @@
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs)
+        Me.Controls.Add(ObservationLabel)
+    End Sub
+
+    Private Sub Study_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.Controls.Remove(ObservationLabel)
+        Me.Controls.Remove(Button15)
+    End Sub
+
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
 
     End Sub
 End Class

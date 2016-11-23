@@ -38,4 +38,8 @@
     Private Sub Label1_Click_1(sender As Object, e As EventArgs) Handles DateTime.Click
         DateTime.Text = DateTime.ToString("yyyy/mm/dd HH:mm:ss")
     End Sub
+
+    Private Sub CheckedListBox1_SelectedIndexChanged(sender As Object, e As EventArgs)
+
+    End Sub
 End Class
